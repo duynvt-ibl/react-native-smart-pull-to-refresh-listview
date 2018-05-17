@@ -1,12 +1,10 @@
 import React, {
     Component,
 } from 'react'
-import PropTypes from 'prop-types';
 import {
     View,
-    ViewPropTypes,
 } from 'react-native'
-
+import PropTypes from 'prop-types';
 import constants from './constants'
 
 export default class RefreshView extends Component {
@@ -16,7 +14,7 @@ export default class RefreshView extends Component {
     }
 
     static propTypes = {
-        ...ViewPropTypes,
+        ...View.propTypes,
         renderRefreshContent: PropTypes.func,
     }
 

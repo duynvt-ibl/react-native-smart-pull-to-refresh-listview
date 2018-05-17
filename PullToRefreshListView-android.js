@@ -8,7 +8,6 @@
 import React, {
     Component,
 } from 'react'
-import PropTypes from 'prop-types';
 import {
     View,
     ScrollView,
@@ -18,7 +17,7 @@ import {
     Platform,
     Dimensions,
 } from 'react-native'
-
+import PropTypes from 'prop-types';
 //import TimerEnhance from '../react-native-smart-timer-enhance'
 import TimerEnhance from 'react-native-smart-timer-enhance'
 import { withinErrorMargin, } from './utils'

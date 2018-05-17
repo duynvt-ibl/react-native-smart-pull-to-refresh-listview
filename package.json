@@ -1,15 +1,68 @@
 {
-  "name": "react-native-smart-pull-to-refresh-listview",
-  "version": "1.6.11-beta.2",
+  "_args": [
+    [
+      {
+        "raw": "react-native-smart-pull-to-refresh-listview@^1.6.10",
+        "scope": null,
+        "escapedName": "react-native-smart-pull-to-refresh-listview",
+        "name": "react-native-smart-pull-to-refresh-listview",
+        "rawSpec": "^1.6.10",
+        "spec": ">=1.6.10 <2.0.0",
+        "type": "range"
+      },
+      "/Users/dev/Desktop/QuantaWallet"
+    ]
+  ],
+  "_from": "react-native-smart-pull-to-refresh-listview@>=1.6.10 <2.0.0",
+  "_id": "react-native-smart-pull-to-refresh-listview@1.6.10",
+  "_inCache": true,
+  "_location": "/react-native-smart-pull-to-refresh-listview",
+  "_nodeVersion": "6.5.0",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/react-native-smart-pull-to-refresh-listview-1.6.10.tgz_1489543264784_0.4914372528437525"
+  },
+  "_npmUser": {
+    "name": "cyqresig",
+    "email": "moonsunfall@aliyun.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-smart-pull-to-refresh-listview@^1.6.10",
+    "scope": null,
+    "escapedName": "react-native-smart-pull-to-refresh-listview",
+    "name": "react-native-smart-pull-to-refresh-listview",
+    "rawSpec": "^1.6.10",
+    "spec": ">=1.6.10 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-smart-pull-to-refresh-listview/-/react-native-smart-pull-to-refresh-listview-1.6.10.tgz",
+  "_shasum": "211c9ed85b291dccb29a8e6242db356397be045d",
+  "_shrinkwrap": null,
+  "_spec": "react-native-smart-pull-to-refresh-listview@^1.6.10",
+  "_where": "/Users/dev/Desktop/QuantaWallet",
+  "author": {
+    "name": "HISAME SHIZUMARU"
+  },
+  "bugs": {
+    "url": "https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview/issues"
+  },
+  "dependencies": {
+    "react-native-smart-timer-enhance": "^1.0.2"
+  },
   "description": "A smart pull-down-refresh and pull-up-loadmore react-native listview, for ios, written in pure JS, for android, written in JS and Java.",
-  "main": "PullToRefreshListView",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "211c9ed85b291dccb29a8e6242db356397be045d",
+    "tarball": "https://registry.npmjs.org/react-native-smart-pull-to-refresh-listview/-/react-native-smart-pull-to-refresh-listview-1.6.10.tgz"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview.git"
-  },
+  "gitHead": "0ba576c15e9ead593acb3a78667d4fa063b7edef",
+  "homepage": "https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview#readme",
   "keywords": [
     "react-native",
     "smart",
@@ -21,14 +74,75 @@
     "listview",
     "component"
   ],
-  "author": "HISAME SHIZUMARU",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview/issues"
+  "main": "PullToRefreshListView",
+  "maintainers": [
+    {
+      "name": "cyqresig",
+      "email": "moonsunfall@aliyun.com"
+    }
+  ],
+  "name": "react-native-smart-pull-to-refresh-listview",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview.git"
   },
-  "homepage": "https://github.com/react-native-component/react-native-smart-pull-to-refresh-listview#readme",
-  "dependencies": {
-    "react-native-smart-timer-enhance": "^1.0.2",
-    "prop-types": "^15.5.10"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.6.10",
+  "react-native": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "dgram": "react-native-udp",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
+  },
+  "browser": {
+    "_stream_transform": "readable-stream/transform",
+    "_stream_readable": "readable-stream/readable",
+    "_stream_writable": "readable-stream/writable",
+    "_stream_duplex": "readable-stream/duplex",
+    "_stream_passthrough": "readable-stream/passthrough",
+    "stream": "stream-browserify",
+    "zlib": "browserify-zlib",
+    "console": "console-browserify",
+    "constants": "constants-browserify",
+    "crypto": "react-native-crypto",
+    "dns": "dns.js",
+    "net": "react-native-tcp",
+    "domain": "domain-browser",
+    "http": "react-native-http",
+    "https": "https-browserify",
+    "os": "react-native-os",
+    "path": "path-browserify",
+    "querystring": "querystring-es3",
+    "fs": "react-native-level-fs",
+    "dgram": "react-native-udp",
+    "timers": "timers-browserify",
+    "tty": "tty-browserify",
+    "vm": "vm-browserify",
+    "tls": false
   }
 }
